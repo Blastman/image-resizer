@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.image-thumbnail-container {
+    position: relative;
+}
+
+.image-thumbnail-container.small{
+    width: 100px;
+    height:100px;
+}
+
+.image-thumbnail-container.medium{
+    width: 200px;
+    height:200px;
+}
+
+.image-thumbnail-container.large{
+    width: 400px;
+    height:400px;
+}
+
+.image-controls {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image-thumbnail {
+    max-height: inherit;
+    max-width: inherit;
+}
+
+.image-thumbnail.controls-shown {
+    opacity: 25%;
+}
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
